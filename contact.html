@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact SLC Feed - Get Your Bird Feed Delivered</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">🐦 SLC Feed</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let's discuss your aviary's bird feed needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="facility">Facility Name *</label>
+                            <input type="text" id="facility" name="facility" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Interest *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select an option</option>
+                                <option value="new-customer">New Customer Inquiry</option>
+                                <option value="regular-delivery">Regular Delivery Setup</option>
+                                <option value="bulk-order">Bulk Order</option>
+                                <option value="custom-blend">Custom Blend</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                        <p class="form-note" id="formNote"></p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="info-block">
+                        <h4>📧 Email</h4>
+                        <p><a href="mailto:hello@slcfeed.com">hello@slcfeed.com</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>📞 Phone</h4>
+                        <p><a href="tel:+18015551234">(801) 555-1234</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>📍 Service Area</h4>
+                        <p>Salt Lake City and surrounding areas</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>⏰ Response Time</h4>
+                        <p>We typically respond within 24 business hours</p>
+                    </div>
+
+                    <div class="info-block highlight-box">
+                        <h4>🚀 Quick Start</h4>
+                        <p>Fill out the form with your details and let us know your needs. We'll reach out promptly to discuss how we can serve your facility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 SLC Feed. All rights reserved.</p>
+            <p>Serving aviaries throughout the Salt Lake City area with quality bird feed and exceptional service.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
